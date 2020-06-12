@@ -10,6 +10,8 @@ console.log(cognomeUtente);
 var coloreUtente = prompt("Qual è il tuo colore preferito?");
 console.log(coloreUtente);
 
+// Costante numerica da inserire a fine Password
 const luckyNumber = 19;
 
-document.getElementById('title').innerHTML = "La tua password insicura è: " + nomeUtente + cognomeUtente + coloreUtente + luckyNumber;
+// Generazione Password Insicura
+document.getElementById('genpass').innerHTML = nomeUtente + cognomeUtente + coloreUtente + luckyNumber;

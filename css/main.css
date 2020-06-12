@@ -1,6 +1,7 @@
 /* Unsecure Password Generator CSS */
 
 /* Generali */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,24 @@ body {
   height: 100vh;
 }
 main {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* Box centrale */
+.container {
+  background: #0d75d0;
+  min-width: 300px;
+  min-height: 70px;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+  padding: 20px;
+}
+.container > i {
+  color: #ffbf00;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #666;
+  margin-bottom: 10px;
 }
